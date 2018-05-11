@@ -1,0 +1,2 @@
+# ParadigmasComputacao
+Paradigmas basicos
