@@ -1,0 +1,37 @@
+#lang racket
+
+(define (soma a b)
+  (+ a b)
+)
+
+(define (subtracao a b)
+  (- a b)
+)
+
+(define (multi a b)
+  (* a b)
+)
+
+(define (divide a b)
+  (/ a b)
+)
+
+(define (dobro a)
+  (multi a 2)
+)
+
+(define (triplo a)
+  (+ (dobro a) a)
+)
+
+(define (metade a)
+  (divide a 2)
+)
+
+(define (quadrado a)
+  (multi a a)
+)
+
+(define (cubo a)
+  (* (quadrado a) a)
+)
